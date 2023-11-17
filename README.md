@@ -14,7 +14,7 @@ The workspace contains the following folders, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies (JavafX and SQLite JDBC)
 - `db`: the folder to maintain the database file
-- `img\readme.jpg`: the folder to maintain the image resourse used in the project
+- `img`: the folder to maintain the image resourse used in the project
 
 ## Dependency Management
 ### Working with Eclipse
