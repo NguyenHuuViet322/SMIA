@@ -63,3 +63,12 @@ Keep in mind that the project is developed using JDK version 21. If you are usin
 ###Adding product to the Shop
 - Step 1: Add a product to `Product` table in the DB manually. (The ID value is auto-increment) <strong>You can use SQLite designer online or something equivalent</strong>
 - Step 2: Add a image the `img` folder in the project with the name <<ID>>.jpg (example: 1.jpg) (I'm lazy so only jpg file, ok?)
+
+###API 
+- You will need to register to implement the API in the app. (Link: https://sandbox.vnpayment.vn/devreg/)
+- They will send you a email after you fillout the form on the website.
+- The setting of the API is in Config.java of VNPaySubSystem Package
+
+###Overall Code
+- Please, nếu bọn mày thương tao, then kindly read and rewrite some of the code and change the order of the function that is written in the project. (Changing <strong>if ... else</strong> to <strong>switch ... case</strong>, change the name of the variable, rewrite function,....)
+- Thanks for reading.
