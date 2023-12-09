@@ -2,6 +2,10 @@ package Model;
 
 import java.sql.Date;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+import Controller.DBHandler;
 
 public class Order {
 	private int ID;
@@ -16,10 +20,12 @@ public class Order {
 	private double shipping;
 	private String address;
 	private String note;
+	private DBHandler dbHandler;
 
 	public Order(int iD, Date date2, double subtotal, Date date3, int userID,
 			String shippingInstruction, int status, int transactionId, String note) {
 		super();
+		dbHandler = new DBHandler();
 		ID = iD;
 		this.date = date2;
 		this.subtotal = subtotal;
