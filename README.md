@@ -1,6 +1,6 @@
 #  SMIA Project
 <p align="center">
-  <img src="img/aims_cover_image.png" />
+  <img src="img/readme.jpg" />
 </p>
 
 ## Getting Started
