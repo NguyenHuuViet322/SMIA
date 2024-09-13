@@ -1,6 +1,6 @@
 #  SMIA Project
 <p align="center">
-  <img src="assets/images/aims_cover_image.png" />
+  <img src="img/aims_cover_image.png" />
 </p>
 
 ## Getting Started
